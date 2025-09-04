@@ -73,7 +73,7 @@ body {
 
 
 
-button{
+.button{
    height: 33px;
     width: 100%;
     font-size: large;
@@ -101,6 +101,7 @@ header{
 
 
 }
+
 
 
 
