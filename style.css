@@ -1,0 +1,119 @@
+
+
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+ text-align: start;
+ flex-direction: column;
+  display: flex;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+
+
+
+}
+input[required] {
+  border: 1px solid #ccc;
+  border-left: 4px solid #999;
+}
+
+
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+
+input[type="email"]:not(:placeholder-shown) {
+  background-color: #f0f8ff;
+}
+
+
+
+
+input:focus,
+button:focus-visible {
+  outline: 2px solid #007BFF;
+  outline-offset: 2px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  height: 100%;
+    background-color: #7473715d;
+}
+
+.ft {
+    width: 25rem;
+    text-align: start;
+    font-size: larger;
+    padding:20px ;
+    background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-top: 10rem;
+}
+
+
+
+button{
+   height: 33px;
+    width: 100%;
+    font-size: large;
+    border-radius: 6px;
+    border: solid 1px;
+    cursor:pointer;
+}
+
+
+
+.main{
+ display: flex;
+  justify-content: center; 
+  align-items: center;   
+  
+   padding: 5px;
+
+}
+
+header{
+   padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    background-color: blanchedalmond;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
